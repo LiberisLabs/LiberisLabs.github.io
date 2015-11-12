@@ -1,0 +1,33 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@primaryColor   : @teal;
+@secondaryColor : @green;
+@red            : #E87722;
+@orange         : #EAAA00;
+@yellow         : #FEDD00;
+@olive          : #64A70B;
+@green          : #50A684;
+@teal           : #0093B2;
+@blue           : #64A70B;
+@violet         : #EE82EE;
+@purple         : #B413EC;
+@pink           : #FF1493;
+@brown          : #A52A2A;
+@grey           : #A0A0A0;
+@black          : #000000;
+
+@fontName          : 'Trebuchet MS';
+@fontSmoothing     : antialiased;
+
+@headerFont        : @fontName, Helvetica, sans-serif;
+@pageFont          : @fontName, Helvetica, sans-serif;
+
+@googleFontName    : @fontName;
+@importGoogleFonts : true;
+@googleFontSizes   : '400,700,400italic,700italic';
+@googleSubset      : 'latin';
+
+@googleProtocol    : 'https://';
+@googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
