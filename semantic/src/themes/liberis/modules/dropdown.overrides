@@ -60,3 +60,7 @@
   content: "\f0da";
 }
 */
+
+.ui.vertical.menu{
+  width: auto;
+}

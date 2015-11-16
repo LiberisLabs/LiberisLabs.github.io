@@ -1,3 +1,7 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.menu > .item:last-child:before{
+	width: 0;
+}
+
