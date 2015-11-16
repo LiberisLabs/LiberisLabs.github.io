@@ -5,7 +5,14 @@
 .ui.sub.segment{
     padding: 0 0 2em 0em;
     background: url(../../assets/sub-masthead.jpg);
-    background-position: 50% 20%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ui.footer.segment{
+    background: url(../../assets/sub-masthead.jpg);
+    background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: 100%;
 }
