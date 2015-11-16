@@ -4630,6 +4630,10 @@ input::selection {
          Theme Overrides
 *******************************/
 
+.ui.menu.fixed > .container img {
+  padding: 10px 0;
+}
+
 /*******************************
          Site Overrides
 *******************************/
@@ -15270,6 +15274,14 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
+
+.ui.sub.segment {
+  padding: 0 0 2em 0em;
+  background: url("../../assets/sub-masthead.jpg");
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 /*******************************
          Site Overrides

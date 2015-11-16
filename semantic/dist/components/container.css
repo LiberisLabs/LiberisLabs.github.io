@@ -141,6 +141,9 @@
          Theme Overrides
 *******************************/
 
+.ui.menu.fixed > .container img {
+  padding: 10px 0;
+}
 
 
 /*******************************
