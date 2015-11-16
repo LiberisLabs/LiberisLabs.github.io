@@ -1,6 +1,9 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.masthead.segment{
+    background: url(../../assets/sub-masthead.jpg) !important;
+}
 
 .ui.sub.segment{
     padding: 0 0 2em 0em;
