@@ -1,3 +1,7 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.equal.width.form.center-aligned{
+	position: relative;
+	margin: 0 auto;
+}
