@@ -10,12 +10,12 @@
     background: url(../../assets/sub-masthead.jpg);
     background-position: 50% 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .ui.footer.segment{
     background: url(../../assets/sub-masthead.jpg);
     background-position: 50% 0%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
