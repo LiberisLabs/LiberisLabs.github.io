@@ -13,9 +13,29 @@
     background-size: cover;
 }
 
+.ui.grid>.row>.black.column.masthead{
+    padding: 5em 0em;
+    background: url(../../assets/sub-masthead.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .ui.footer.segment{
     background: url(../../assets/sub-masthead.jpg);
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.ui.vertical.stripe h3{
+    line-height: 1;
+}
+
+.ui.vertical.stripe h3 i.twitter{
+    font-size:4em;
+}
+
+.ui.vertical.stripe.nopaddingtop {
+    padding-top: 0;
 }
