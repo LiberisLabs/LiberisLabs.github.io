@@ -6,6 +6,19 @@
 	background-color: #413050;
 }
 
+.ui.primary.button:focus {
+	background-color: #413050;
+}
+
+.ui.primary.button:active {
+	background-color: #413050;
+}
+
 .ui.primary.button:hover {
 	background-color: #E9970B;
+}
+
+#heroBtn{
+	z-index: 10;
+    position: relative;
 }
