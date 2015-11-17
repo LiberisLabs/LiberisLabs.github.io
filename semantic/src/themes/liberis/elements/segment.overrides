@@ -36,6 +36,10 @@
     font-size:4em;
 }
 
+.ui.vertical.stripe.homecontent{
+    padding-top: 6em;
+}
+
 .ui.vertical.stripe.nopaddingtop {
     padding-top: 0;
 }
