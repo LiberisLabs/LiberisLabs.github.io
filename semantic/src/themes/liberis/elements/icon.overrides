@@ -753,3 +753,9 @@ i.icon.mars.stroke.horizontal:before { content: "\f22b"; }
 i.icon.facebook.official { content: "\f230"; }
 i.icon.pinterest.official { content: "\f231"; }
 i.icon.bed:before { content: "\f236"; }
+
+
+.ui.doubling.seven.column.grid .icon{
+	font-size: 2em;
+    margin-top: 0.6em;
+}
