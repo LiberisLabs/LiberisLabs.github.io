@@ -1,0 +1,35 @@
+<header>
+  <div class="ui large top fixed menu">
+    <div class="ui container">
+    <div class="left">
+      <a href="{{ site.baseurl }}">
+        <img src="semantic/dist/themes/liberis/assets/images/liberis-labs-logo.png" alt="Liberis Labs Logo">
+      </a>
+    </div>
+      <div class="right menu">
+        {% for page in site.pages %}
+          {% if page.title %}
+            <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+
+        <!-- TODO: Add in active tab -->
+        <!--<a class="active item" href="index.html">Home</a>-->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="ui vertical sidebar menu">
+    {% for page in site.pages %}
+      {% if page.title %}
+        <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+
+    <!-- TODO: Add in active tab -->
+    <!--<a class="active item" href="index.html">Home</a>-->
+
+  </div>
+</header>
