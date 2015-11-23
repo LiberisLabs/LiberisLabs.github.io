@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Home
+icon: lab
+permalink: /
 ---
 
 <div class="ui inverted vertical masthead center aligned segment">

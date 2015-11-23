@@ -1,0 +1,76 @@
+---
+layout: page
+title: About us
+icon: lab
+permalink: /about-us/
+---
+
+<div class="ui container">
+<div class="ui hidden divider"></div>
+  <h1 class="ui header">
+    Header
+    <div class="sub header">Sub Header</div>
+  </h1>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, vel, officiis! Ex nam a, deleniti veniam, quod iure laudantium, cum porro officiis ullam libero ipsa temporibus dolor quasi unde commodi!</p>
+
+  <div class="ui divider"></div>
+</div>
+
+<div class="ui vertical segment">
+  <div class="ui container">
+    
+    <img class="ui medium right floated image transition visible" data-src="{{ "/assets/wireframe/image.png" | prepend: site.baseurl }}" src="{{ "/assets/wireframe/image.png" | prepend: site.baseurl }}">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus, aliquam illo ea mollitia. Quod sunt minima facere quos ratione illo dolor quo, consequuntur vero repudiandae ea quia eligendi explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ut aspernatur voluptate reiciendis voluptas, accusantium consequuntur. Deserunt est, totam at dolor autem nemo sunt commodi, nesciunt impedit ipsam minus veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, aperiam. Dignissimos atque odit nemo animi sint totam dolorum ipsa ullam, culpa ex quasi rerum odio voluptas obcaecati ea minus in.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus, aliquam illo ea mollitia. Quod sunt minima facere quos ratione illo dolor quo, consequuntur vero repudiandae ea quia eligendi explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ut aspernatur voluptate reiciendis voluptas, accusantium consequuntur. Deserunt est, totam at dolor autem nemo sunt commodi, nesciunt impedit ipsam minus veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, aperiam. Dignissimos atque odit nemo animi sint totam dolorum ipsa ullam, culpa ex quasi rerum odio voluptas obcaecati ea minus in.</p>
+
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+
+  </div>
+</div>
+
+{% include twitter-segment.html %}
+
+<div class="ui stripe segment container">
+    <div class="ui three column very relaxed grid">
+        <div class="column">
+            <h3 class="ui header">We build awesome applications</h3>
+            <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
+        </div>
+        <div class="ui vertical divider">
+            and
+        </div>
+        <div class="column">
+            <h3 class="ui header">Write exceptional code</h3>
+            <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
+        </div>
+        <div class="ui vertical divider">
+            and
+        </div>
+        <div class="column">
+            <h3 class="ui header">Deliver results on time</h3>
+            <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
+        </div>
+    </div>
+</div>
+
+<div class="ui hidden divider"></div>
+<div class="ui hidden divider"></div>
+<div class="ui hidden divider"></div>
+
+<div class="ui clearing vertical segment">
+  <div class="ui container">
+
+  <img class="ui medium left floated image transition visible" data-src="{{ "/assets/wireframe/image.png" | prepend: site.baseurl }}" src="{{ "/assets/wireframe/image.png" | prepend: site.baseurl }}">
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus, aliquam illo ea mollitia. Quod sunt minima facere quos ratione illo dolor quo, consequuntur vero repudiandae ea quia eligendi explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ut aspernatur voluptate reiciendis voluptas, accusantium consequuntur. Deserunt est, totam at dolor autem nemo sunt commodi, nesciunt impedit ipsam minus veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, aperiam. Dignissimos atque odit nemo animi sint totam dolorum ipsa ullam, culpa ex quasi rerum odio voluptas obcaecati ea minus in.</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus, aliquam illo ea mollitia. Quod sunt minima facere quos ratione illo dolor quo, consequuntur vero repudiandae ea quia eligendi explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ut aspernatur voluptate reiciendis voluptas, accusantium consequuntur. Deserunt est, totam at dolor autem nemo sunt commodi, nesciunt impedit ipsam minus veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, aperiam. Dignissimos atque odit nemo animi sint totam dolorum ipsa ullam, culpa ex quasi rerum odio voluptas obcaecati ea minus in.</p>
+
+  </div>
+</div>
+
+<div class="ui hidden divider"></div>
