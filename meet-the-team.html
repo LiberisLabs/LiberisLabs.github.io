@@ -50,12 +50,35 @@ order: 3
               </a>
               {% endif %}
 
+              {% if member.bitbucket %}
+              <a href="http://bitbucket.org/{{ member.bitbucket }}">
+                <i class="bitbucket square icon"></i>
+              </a>
+              {% endif %}
+
+              {% if member.stackoverflow %}
+              <a href="http://stackoverflow.com/users/{{ member.stackoverflow }}">
+                <i class="stack overflow icon"></i>
+              </a>
+              {% endif %}
+
+              {% if member.flickr %}
+              <a href="http://flickr.com/{{ member.flickr }}">
+                <i class="flickr icon"></i>
+              </a>
+              {% endif %}
+
+              {% if member.linkedin %}
+              <a href="https://uk.linkedin.com/in/{{ member.linkedin }}">
+                <i class="linkedin square icon"></i>
+              </a>
+              {% endif %}
+
               {% if member.twitter %}
               <a href="http://twitter.com/{{ member.twitter }}">
                 <i class="twitter square icon"></i>
               </a>
               {% endif %}
-
 
               {% if member.facebook %}
               <a href="http://fb.com/{{ member.facebook }}">
