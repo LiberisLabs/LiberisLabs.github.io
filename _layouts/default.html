@@ -4,6 +4,9 @@
   {% include head.html %}
 
   <body>
+    {% if site.google_tag_manager %}
+      {% include google-tag-manager.html %}
+    {% endif %}
 
     {% include header.html %}
 

@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://liberislabs.com" # the base hostname & protocol for your site
 twitter_username: LiberisLabs
 github_username:  LiberisLabs
+google_tag_manager: 
 
 # Build settings
 markdown: kramdown
