@@ -1,4 +1,6 @@
 
+{% assign pages = site.pages | sort: 'order' %}
+
 <div class="ui large top fixed menu">
   <div class="ui container">
   <div class="left">
@@ -7,7 +9,7 @@
     </a>
   </div>
     <div class="right menu">
-      {% for page in site.pages %}
+      {% for page in pages %}
         {% if page.title %}
           <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
@@ -22,7 +24,7 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical sidebar menu">
-  {% for page in site.pages %}
+  {% for page in pages %}
     {% if page.title %}
       <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
     {% endif %}
