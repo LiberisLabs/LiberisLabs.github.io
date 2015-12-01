@@ -13,5 +13,5 @@ google_tag_manager:
 
 # Build settings
 markdown: kramdown
-
+encoding: utf-8
 exclude: [semantic/node_modules/]
