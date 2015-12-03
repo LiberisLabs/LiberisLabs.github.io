@@ -1,7 +1,8 @@
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
+- name: Kev
+  description:
+  image:
+  emailMd5: 112b8fad8d523dcfb981cf94767fb86b
+  role: Developer
   github: kevbite
   stackoverflow: 4079967
   bitbucket: kev_bite
@@ -11,86 +12,86 @@
   facebook: kev_bite
   website: http://kevsoft.net
 
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  twitter: kev_bite
-  facebook: kev_bite
-  website: http://kevsoft.net
+- name: Jay
+  description:
+  image: /assets/meet-the-team/default.png
+  emailMd5:
+  role: Developer
+  github:
+  stackoverflow:
+  bitbucket:
+  flickr:
+  linkedin:
+  twitter:
+  facebook:
+  website:
 
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  twitter: kev_bite
-  facebook: kev_bite
-  website: http://kevsoft.net
+- name: Venkat
+  description:
+  image: /assets/meet-the-team/default.png
+  emailMd5:
+  role: Developer
+  github:
+  stackoverflow:
+  bitbucket:
+  flickr:
+  linkedin:
+  twitter:
+  facebook:
+  website:
 
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  twitter: kev_bite
-  facebook: kev_bite
-  website: http://kevsoft.net
+- name: Lee
+  description:
+  image: /assets/meet-the-team/lee.jpg
+  emailMd5:
+  role: Developer
+  github:
+  stackoverflow:
+  bitbucket:
+  flickr:
+  linkedin:
+  twitter:
+  facebook:
+  website:
 
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  twitter: kev_bite
-  facebook: kev_bite
-  website: http://kevsoft.net
+- name: Karen
+  description:
+  image: /assets/meet-the-team/karen.png
+  emailMd5:
+  role: Developer
+  github:
+  stackoverflow:
+  bitbucket:
+  flickr:
+  linkedin:
+  twitter:
+  facebook:
+  website:
 
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  twitter: kev_bite
-  facebook: kev_bite
-  website: http://kevsoft.net
+- name: Sakis
+  description:
+  image: /assets/meet-the-team/sakis.jpg
+  emailMd5:
+  role: Developer
+  github:
+  stackoverflow:
+  bitbucket:
+  flickr:
+  linkedin:
+  twitter:
+  facebook:
+  website:
 
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  facebook: kev_bite
-  website: http://kevsoft.net
-
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  twitter: kev_bite
-  website: http://kevsoft.net
-
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  twitter: kev_bite
-  facebook: kev_bite
-  website: http://kevsoft.net
-
-- name: Kevin Smith
-  description: bla bla bla
-  image: /semantic/dist/themes/liberis/assets/images/avatar/matthew.png
-  role: bla bla
-  github: kevbite
-  twitter: kev_bite
-  facebook: kev_bite
-  website: http://kevsoft.net
+- name: Matt
+  description:
+  image: /assets/meet-the-team/default.png
+  emailMd5:
+  role: Developer
+  github:
+  stackoverflow:
+  bitbucket:
+  flickr:
+  linkedin:
+  twitter:
+  facebook:
+  website:

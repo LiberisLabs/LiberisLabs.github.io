@@ -30,7 +30,11 @@ order: 3
 
         <div class="card">
           <div class="image">
+            {% if member.image %}
             <img src="{{ member.image | prepend: site.baseurl }}">
+            {% else %}
+            <img src="//www.gravatar.com/avatar/{{ member.emailMd5 }}?s=273">
+            {% endif %}
           </div>
           <div class="content">
             <div class="header">{{ member.name }}</div>
