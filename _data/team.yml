@@ -85,13 +85,13 @@
 - name: Matt
   description:
   image: /assets/meet-the-team/default.png
-  emailMd5:
+  emailMd5: 547af8629760643a23b3a809f604e356
   role: Developer
-  github:
-  stackoverflow:
-  bitbucket:
+  github: terrawheat
+  stackoverflow: mattdotdev
+  bitbucket: terrawheat
   flickr:
-  linkedin:
-  twitter:
-  facebook:
+  linkedin: matthew-wheatley-97790364
+  twitter: mattdotdev
+  facebook: mattmwheatley
   website:
