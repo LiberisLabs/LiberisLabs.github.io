@@ -14,7 +14,7 @@
 
 - name: Jay
   description:
-  image: /assets/meet-the-team/default.png
+  image: /assets/meet-the-team/jay.gif
   emailMd5:ee9a846743edc2ba8cd6cbd360635dd7
   role: DevOptimus Prime
   github:Jay2Base
