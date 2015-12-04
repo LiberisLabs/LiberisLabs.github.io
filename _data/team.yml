@@ -70,8 +70,8 @@
 
 - name: Sakis
   description:
-  image: /assets/meet-the-team/sakis.jpg
-  emailMd5:
+  image: 
+  emailMd5: b5fdc672a5f85b704d92765f17e39bff
   role: Developer
   github: sakisk
   stackoverflow:
