@@ -14,16 +14,16 @@
 
 - name: Jay
   description:
-  image: /assets/meet-the-team/default.png
-  emailMd5:ee9a846743edc2ba8cd6cbd360635dd7
+  image: /assets/meet-the-team/jay.gif
+  emailMd5: ee9a846743edc2ba8cd6cbd360635dd7
   role: DevOptimus Prime
-  github:Jay2Base
-  stackoverflow:575273
-  bitbucket:JayRamsay
+  github: Jay2Base
+  stackoverflow: 575273
+  bitbucket: JayRamsay
   flickr:
-  linkedin:jay-ramsay-0306a45
-  twitter:JayRamsay
-  facebook:Jayandthat
+  linkedin: jay-ramsay-0306a45
+  twitter: JayRamsay
+  facebook: Jayandthat
   website:
 
 - name: Venkat
@@ -70,15 +70,15 @@
 
 - name: Sakis
   description:
-  image: /assets/meet-the-team/sakis.jpg
-  emailMd5:
+  image: 
+  emailMd5: b5fdc672a5f85b704d92765f17e39bff
   role: Developer
-  github:
+  github: sakisk
   stackoverflow:
-  bitbucket:
+  bitbucket: sakisk
   flickr:
   linkedin:
-  twitter:
+  twitter: sakisk
   facebook:
   website:
 
