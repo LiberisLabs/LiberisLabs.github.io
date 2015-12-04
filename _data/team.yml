@@ -42,7 +42,7 @@
 
 - name: Lee
   description:
-  image: /assets/meet-the-team/lee.jpg
+  image:
   emailMd5: 9a8ee9e1fc7bcda249f3ca4ecf261438
   role: Software Craftsman
   github: Blundell89
