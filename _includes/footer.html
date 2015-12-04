@@ -18,9 +18,11 @@
       <img src="semantic/dist/themes/liberis/assets/images/liberis-labs-logo.png" class="ui centered mini image">
       <div class="ui horizontal inverted small divided link list">
         <a class="item" href="#">Site Map</a>
-        <a class="item" href="#">Contact Us</a>
-        <a class="item" href="#">Terms and Conditions</a>
-        <a class="item" href="#">Privacy Policy</a>
+        {% for page in pages %}
+          {% if page.title %}
+          <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
       </div>
 
       <p>Copyright &copy; {{ site.time | date: '%y' }}, {{ site.title }}. All rights reserved.</p>
