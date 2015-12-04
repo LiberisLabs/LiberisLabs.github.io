@@ -9,28 +9,28 @@
     </a>
   </div>
     <div class="right menu">
-      {% for page in pages %}
-        {% if page.title %}
-          <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% for item in pages %}
+        {% if item.title %}
+          {% if item.title == page.title %}
+          <a class="active item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% else %}
+          <a class="item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% endif %}
         {% endif %}
       {% endfor %}
-
-      <!-- TODO: Add in active tab -->
-      <!--<a class="active item" href="index.html">Home</a>-->
-
     </div>
   </div>
 </div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical sidebar menu">
-  {% for page in pages %}
-    {% if page.title %}
-      <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  {% for item in pages %}
+    {% if item.title %}
+      {% if item.title == page.title %}
+      <a class="active item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+      {% else %}
+      <a class="item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+      {% endif %}
     {% endif %}
   {% endfor %}
-
-  <!-- TODO: Add in active tab -->
-  <!--<a class="active item" href="index.html">Home</a>-->
-
 </div>
