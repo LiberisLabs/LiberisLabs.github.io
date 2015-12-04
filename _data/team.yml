@@ -15,15 +15,15 @@
 - name: Jay
   description:
   image: /assets/meet-the-team/default.png
-  emailMd5:
-  role: Developer
-  github:
-  stackoverflow:
-  bitbucket:
+  emailMd5:ee9a846743edc2ba8cd6cbd360635dd7
+  role: DevOptimus Prime
+  github:Jay2Base
+  stackoverflow:575273
+  bitbucket:JayRamsay
   flickr:
-  linkedin:
-  twitter:
-  facebook:
+  linkedin:jay-ramsay-0306a45
+  twitter:JayRamsay
+  facebook:Jayandthat
   website:
 
 - name: Venkat
