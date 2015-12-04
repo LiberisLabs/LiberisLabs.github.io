@@ -1,6 +1,6 @@
 - name: Kev
   description:
-  image:
+  image: /assets/meet-the-team/kev.JPG
   emailMd5: 112b8fad8d523dcfb981cf94767fb86b
   role: Developer
   github: kevbite
@@ -14,7 +14,7 @@
 
 - name: Jay
   description:
-  image: /assets/meet-the-team/jay.gif
+  image: /assets/meet-the-team/jay.jpg
   emailMd5: ee9a846743edc2ba8cd6cbd360635dd7
   role: DevOptimus Prime
   github: Jay2Base
@@ -28,21 +28,21 @@
 
 - name: Venkat
   description:
-  image: /assets/meet-the-team/default.png
+  image: /assets/meet-the-team/venkat.jpg
   emailMd5:
-  role: Developer
-  github:
+  role: Data / Solutions Architect
+  github: venkat.yarabati
   stackoverflow:
-  bitbucket:
-  flickr:
-  linkedin:
-  twitter:
-  facebook:
-  website:
+  bitbucket: venkat.yarabati
+  flickr: venkat.yarabati
+  linkedin: venkat.yarabati
+  twitter: venkat.yarabati
+  facebook: venkat.yarabati
+  website: 
 
 - name: Lee
   description:
-  image:
+  image: /assets/meet-the-team/lee.jpg
   emailMd5: 9a8ee9e1fc7bcda249f3ca4ecf261438
   role: Software Craftsman
   github: Blundell89
@@ -56,7 +56,7 @@
 
 - name: Karen
   description:
-  image: /assets/meet-the-team/karen.png
+  image: /assets/meet-the-team/karen.jpg
   emailMd5:
   role: Developer
   github:
@@ -70,7 +70,7 @@
 
 - name: Sakis
   description:
-  image: 
+  image: /assets/meet-the-team/sakis.jpg
   emailMd5: b5fdc672a5f85b704d92765f17e39bff
   role: Developer
   github: sakisk
