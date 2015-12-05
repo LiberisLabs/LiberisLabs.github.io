@@ -1,15 +1,36 @@
 ---
-layout: default
+layout: page
+icon: comments
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<div class="ui vertical segment container">
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+  <div class="ui large breadcrumb">
+    <a class="section" href="blog.html">Blog</a>
+    <i class="right chevron icon divider"></i>
+    <div class="active section">{{page.title}}</div>
+  </div>
 
-</div>
+  <div class="ui divider"></div>
+
+    <div class="ui padded">
+      <h1 class="ui header">
+         <i class="comments icon"></i>
+         <div class="content">
+            {{page.title}}
+            <div class="sub header">by {% if page.author %}<a href="/meet-the-team" title="Meet the Team">{{ page.author }}{% endif %}</a></div>
+         </div>
+      </h1>
+      <div class="ui divider"></div>
+      <p><i class="calendar icon"></i> Posted on {{ page.date | date: "%A, %B %-d, %Y" }}</p>
+      <div class="ui divider"></div>
+      {% if page.image %}
+      <img class="ui fluid image" src="{{ page.image | prepend: site.baseurl }}">
+      {% endif %}
+      <div class="ui piled segment">
+         {{ content }}
+      </div>
+      <div class="ui divider"></div>
+      {{% include disqus.html %}}
+    </div>
+ </div>
