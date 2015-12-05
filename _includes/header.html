@@ -1,6 +1,4 @@
 
-{% assign pages = site.pages | sort: 'order' %}
-
 <div class="ui large top fixed menu">
   <div class="ui container">
   <div class="left">
@@ -9,28 +7,12 @@
     </a>
   </div>
     <div class="right menu">
-      {% for item in pages %}
-        {% if item.title %}
-          {% if item.title == page.title %}
-          <a class="active item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-          {% else %}
-          <a class="item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+      {% include menu-items.html %}
     </div>
   </div>
 </div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical sidebar menu">
-  {% for item in pages %}
-    {% if item.title %}
-      {% if item.title == page.title %}
-      <a class="active item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-      {% else %}
-      <a class="item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+  {% include menu-items.html %}
 </div>
