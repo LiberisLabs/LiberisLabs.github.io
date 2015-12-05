@@ -5,4 +5,8 @@ $(document).ready(function() {
 	.sidebar('attach events', '.toc.item')
   ;
 
+  $('.ui.accordion')
+  .accordion()
+  ;
+
 });

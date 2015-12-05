@@ -70,12 +70,19 @@ order: 2
            <div class="ui divider"></div>
               <div class="ui fluid category search">
                  <div class="ui icon input">
-                    <input class="prompt" type="text" placeholder="Search blog...">
+                  <form method="get" action="https://www.google.com/search">
+                    <input name="q" type="hidden" value="site:liberislabs.com">
+                    <input class="prompt" name="q" type="text" placeholder="Search blog..." />
                     <i class="search icon"></i>
+                  </form> 
                  </div>
                  <div class="results"></div>
               </div>
            </div>
+        </div>
+
+        <div class="ui padded segment">
+        {% include tags.html%}
         </div>
         <div class="ui padded segment">
            <h4 class="ui top header">Blog Categories</h4>
