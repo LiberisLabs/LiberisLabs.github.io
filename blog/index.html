@@ -34,10 +34,10 @@ order: 2
           </a>
 
           {% for pageNumber in site.pageNumbers %}
-            {% assign pageUrl = site.paginate_path | replace: ':num', paginator.previous_page %}
+            {% assign pageUrl = site.paginate_path | replace: ':num', pageNumber %}
             {% if pageNumber == 1 %}
               {% assign pageUrl = site.paginate_path | remove: '/page:num' %}
-            {% endif %}
+            {% endif %} 
             {% if pageNumber <= paginator.total_pages %}
               {% if pageNumber == paginator.page %}
               <a href="{{pageUrl}}" class="active item">
