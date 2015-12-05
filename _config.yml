@@ -1,11 +1,16 @@
 # Site settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "/blog/page:num"
+
 title: Liberis Labs
 email: your-email@domain.com
 description: ># At Liberis Labs we are building
  a cutting edge ecosystem that enables
  small businesses to gain easy access to finance.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: ""
 url: "http://liberislabs.com"
+
 disqus: 
 twitter_username: LiberisLabs
 github_username:  LiberisLabs
@@ -16,3 +21,6 @@ highlighter: pygments
 markdown: redcarpet
 encoding: utf-8
 exclude: [semantic/node_modules/]
+
+pageNumbers: [1,2,3,4,5]
+array: []

@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2015-11-22 22:02:48
-categories: "jekyll update"
+categories:
+tags: [.NET, C#, WF]
 author: "Liberis Labs peeps"
 image: /semantic/dist/themes/liberis/assets/images/350x150.png
+tagline: WAT?!?!
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2015-11-22 22:02:48
-categories: "jekyll update"
+categories:
+tags: [.NET, C#, WF]
 author: "Liberis Labs peeps"
 image: /semantic/dist/themes/liberis/assets/images/350x150.png
 ---
