@@ -13,7 +13,9 @@ order: 2
           {{post.title}}
         <div class="sub header">{{post.tagline}}</div>
         </h2>
+        {% if post.image %}
         <img class="ui fluid image" src="{{post.image | prepend: site.baseurl }}" height="100">
+        {% elseif %}
         <p>{{post.excerpt}}</p>
         <a class="ui right floated large primary button" href="{{post.url | prepend: site.baseurl }}">Read More</a>
       </div>
