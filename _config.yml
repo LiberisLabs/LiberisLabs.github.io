@@ -6,6 +6,7 @@ description: ># At Liberis Labs we are building
  small businesses to gain easy access to finance.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://liberislabs.com"
+disqus: 
 twitter_username: LiberisLabs
 github_username:  LiberisLabs
 google_tag_manager: 
