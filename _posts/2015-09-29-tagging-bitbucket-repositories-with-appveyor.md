@@ -79,7 +79,7 @@ So we just need to inject our custom environment variables in to our build scrip
 
 The first way is by configuring the environment variables within the AppVeyor portal, to navigate here go to a project then Setting -> Environment. Here you will see an option to add environment variables, then we can add the 3 custom environment variables above:
 
-![appveyor portal environment variables](/assets/posts/2015-09-29-tagging-bitbucket-repositories-with-appveyor/appveyor-portal-environment-variables.png)
+![appveyor portal environment variables](//kevsoft.net/assets/posts/2015-09-29-tagging-bitbucket-repositories-with-appveyor/appveyor-portal-environment-variables.png)
 
 The second option which I personally prefer is to setup the environment variables within the `appveyor.yml` file:
 
