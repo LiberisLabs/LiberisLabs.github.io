@@ -9,4 +9,17 @@ $(document).ready(function() {
   .accordion()
   ;
 
+  $('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    var $menu = $(".top.fixed.menu");
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top - $menu.height()
+	    }, 900, 'swing');
+	});
+
 });
