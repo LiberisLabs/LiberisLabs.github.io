@@ -36,6 +36,15 @@ icon: comments
       </div>
     </div>
      <div class="five wide column">
+      {% assign member = site.data.team | where:"name", page.author | first %}
+      {% if member != null %}
+      <div class="ui padded segment">
+        <div class="ui cards">
+        {% include member-card.html member=member %}
+        </div>
+      </div>
+      {% endif %}
+
       {% include blog-sidebar.html %}
      </div>
   </div>
