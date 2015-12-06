@@ -64,26 +64,7 @@ order: 2
         </div>
      </div>
      <div class="five wide column">
-        <div class="column">
-           <div class="ui bottom padded attached segment">
-           <h4 class="ui top header">Search Blog</h4>
-           <div class="ui divider"></div>
-              <div class="ui fluid category search">
-                 <div class="ui icon input">
-                  <form method="get" action="https://www.google.com/search">
-                    <input name="q" type="hidden" value="site:liberislabs.com">
-                    <input class="prompt" name="q" type="text" placeholder="Search blog..." />
-                    <i class="search icon"></i>
-                  </form> 
-                 </div>
-                 <div class="results"></div>
-              </div>
-           </div>
-        </div>
-
-        <div class="ui padded segment">
-        {% include tags.html%}
-        </div>
+      {% include blog-sidebar.html %}
      </div>
   </div>
 </div>
