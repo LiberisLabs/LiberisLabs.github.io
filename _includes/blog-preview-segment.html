@@ -1,0 +1,25 @@
+{% assign posts = site.array %}
+{% if site.posts[0] %}
+    {% assign posts = posts | push: site.posts[0] %}
+{% endif %}
+{% if site.posts[1] %}
+    {% assign posts = posts | push: site.posts[1] %}
+{% endif %}
+{% if posts.size > 0 %}
+<div class="ui vertical stripe nopaddingtop container">
+    <h2 class="ui horizontal header divider">
+        <a href="blog.html">What's going down in our blog</a>
+    </h2>
+    <div class="ui hidden divider"></div>
+    <div class="ui two column stackable very relaxed grid">
+
+        {% for post in posts %}
+        <div class="column">
+            <h3 class="ui header">{{post.title}}</h3>
+            <p>{{post.excerpt}}</p>
+            <a class="ui large button" href="{{post.url | prepend: site.baseurl }}">Read More</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

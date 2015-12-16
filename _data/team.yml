@@ -1,0 +1,97 @@
+- name: Kev
+  description:
+  image: /assets/meet-the-team/kev.jpg
+  emailMd5: 112b8fad8d523dcfb981cf94767fb86b
+  role: Developer
+  github: kevbite
+  stackoverflow: 4079967
+  bitbucket: kev_bite
+  flickr: kev_bite
+  linkedin: kevbite
+  twitter: kev_bite
+  facebook: kev_bite
+  website: http://kevsoft.net
+
+- name: Jay
+  description:
+  image: /assets/meet-the-team/jay.jpg
+  emailMd5: ee9a846743edc2ba8cd6cbd360635dd7
+  role: DevOptimus Prime
+  github: Jay2Base
+  stackoverflow: 575273
+  bitbucket: JayRamsay
+  flickr:
+  linkedin: jay-ramsay-0306a45
+  twitter: JayRamsay
+  facebook: Jayandthat
+  website:
+
+- name: Venkat
+  description:
+  image: /assets/meet-the-team/venkat.jpg
+  emailMd5:
+  role: Data / Solutions Architect
+  github: venkat.yarabati
+  stackoverflow:
+  bitbucket: venkat.yarabati
+  flickr: venkat.yarabati
+  linkedin: venkat.yarabati
+  twitter: venkat.yarabati
+  facebook: venkat.yarabati
+  website: 
+
+- name: Lee
+  description:
+  image: /assets/meet-the-team/lee.jpg
+  emailMd5: 9a8ee9e1fc7bcda249f3ca4ecf261438
+  role: Software Craftsman
+  github: Blundell89
+  stackoverflow: 718053
+  bitbucket: blundell89
+  flickr:
+  linkedin: leeblundell
+  twitter: Blundell89
+  facebook: blundell89
+  website:
+
+- name: Karen
+  description:
+  image: /assets/meet-the-team/karen.jpg
+  emailMd5:
+  role: Developer
+  github:
+  stackoverflow:
+  bitbucket:
+  flickr:
+  linkedin:
+  twitter:
+  facebook:
+  website:
+
+- name: Sakis
+  description:
+  image: /assets/meet-the-team/sakis.jpg
+  emailMd5: b5fdc672a5f85b704d92765f17e39bff
+  role: Developer
+  github: sakisk
+  stackoverflow:
+  bitbucket: sakisk
+  flickr:
+  linkedin:
+  twitter: sakisk
+  facebook:
+  website:
+
+- name: Matt
+  description:
+  image: /assets/meet-the-team/matt.jpg
+  emailMd5: 547af8629760643a23b3a809f604e356
+  role: Developer
+  github: terrawheat
+  stackoverflow: 6470005
+  bitbucket: terrawheat
+  flickr:
+  linkedin: matthew-wheatley-97790364
+  twitter: mattdotdev
+  facebook: mattmwheatley
+  website:

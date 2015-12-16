@@ -1,0 +1,51 @@
+---
+layout: page
+icon: comments
+---
+
+<div class="ui vertical segment container">
+  <div class="ui stackable two column grid padded">
+     <div class="eleven wide column">
+      <div class="ui large breadcrumb">
+        <a class="section" href="blog.html">Blog</a>
+        <i class="right chevron icon divider"></i>
+        <div class="active section">{{page.title}}</div>
+      </div>
+
+      <div class="ui divider"></div>
+
+      <div class="ui padded">
+        <h1 class="ui header">
+           <i class="comments icon"></i>
+           <div class="content">
+              {{page.title}}
+              <div class="sub header">by {% if page.author %}<a href="/meet-the-team" title="Meet the Team">{{ page.author }}{% endif %}</a></div>
+           </div>
+        </h1>
+        <div class="ui divider"></div>
+        <p><i class="calendar icon"></i> Posted on {{ page.date | date: "%A, %B %-d, %Y" }}</p>
+        <div class="ui divider"></div>
+        {% if page.image %}
+        <img class="ui fluid image" src="{{ page.image | prepend: site.baseurl }}">
+        {% endif %}
+        <div class="ui piled segment">
+           {{ content }}
+        </div>
+        <div class="ui divider"></div>
+        {{% include disqus.html %}}
+      </div>
+    </div>
+     <div class="five wide column">
+      {% assign member = site.data.team | where:"name", page.author | first %}
+      {% if member != null %}
+      <div class="ui padded segment">
+        <div class="ui cards">
+        {% include member-card.html member=member %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% include blog-sidebar.html %}
+     </div>
+  </div>
+</div>

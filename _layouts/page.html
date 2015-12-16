@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="ui inverted vertical center aligned sub segment">
+
+  <div class="ui container">
+    <div class="ui large secondary inverted menu">
+      <a class="toc item">
+        <i class="sidebar icon"></i>
+      </a>
+      <div class="right item">
+        <a href="{{ site.baseurl }}/">
+          <img src="{{ "/semantic/dist/themes/liberis/assets/images/liberis-labs-logo.png" | prepend: site.baseurl }}" alt="Liberis Labs Logo" width="45">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <h2 class="ui center aligned icon header">
+    <i class="circular {{page.icon}} icon"></i>
+    {{ page.title }}
+  </h2>
+</div>
+
+{{ content }}

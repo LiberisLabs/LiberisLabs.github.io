@@ -2582,6 +2582,10 @@ i.icon.pinterest.official {
 i.icon.bed:before {
   content: "\f236";
 }
+.ui.doubling.seven.column.grid .icon {
+  font-size: 2em;
+  margin-top: 0.6em;
+}
 
 
 /*******************************

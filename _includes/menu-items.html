@@ -1,0 +1,19 @@
+{% assign pages = site.array %}
+{% assign pageGroups = site.pages | map: 'to_liquid' | group_by: 'title' | map: 'items' %}
+{% for gItem in pageGroups %}
+  {% assign pages = pages | push: gItem.first %}
+{% endfor %}
+{% assign pages = pages | sort: 'order' %}
+
+
+<!-- Menu Items -->
+{% for item in pages %}
+  {% if item.title %}
+  	{% assign url = item.url | remove: 'index.html' | prepend: site.baseurl %}
+    {% if item.title == page.title %}
+    <a class="active item" href="{{ url }}">{{ item.title }}</a>
+    {% else %}
+    <a class="item" href="{{ url }}">{{ item.title }}</a>
+    {% endif %}
+  {% endif %}
+{% endfor %}

@@ -1,2 +1,6 @@
 node_modules/
 semantic/dist/
+
+_site/
+.sass-cache/
+.jekyll-metadata

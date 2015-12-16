@@ -1,0 +1,70 @@
+---
+layout: page
+title: Blog
+icon: comments
+order: 2
+---
+<div class="ui vertical segment container">
+  <div class="ui stackable two column grid padded">
+     <div class="eleven wide column">
+      {% for post in paginator.posts %}
+      <div class="ui clearing segment">
+        <h2 class="ui header">
+          {{post.title}}
+        <div class="sub header">{{post.tagline}}</div>
+        </h2>
+        {% if post.image %}
+        <img class="ui fluid image" src="{{post.image | prepend: site.baseurl }}" height="100">
+        {% endif %}
+        <p>{{post.excerpt}}</p>
+        <a class="ui right floated large primary button" href="{{post.url | prepend: site.baseurl }}">Read More</a>
+      </div>
+      {% endfor %}
+
+        <div class="ui right floated pagination menu">
+
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+            <a class="item" href="{{ site.baseurl }}{{site.paginate_path | remove: '/page:num'}}">
+            {% else %}
+            <a class="item" href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', paginator.previous_page }}">
+            {% endif %}
+          {% else %}
+          <a class="item disabled">
+          {% endif %}
+            <i class="chevron circle left icon"></i>
+          </a>
+
+          {% for pageNumber in site.pageNumbers %}
+            {% assign pageUrl = site.paginate_path | replace: ':num', pageNumber %}
+            {% if pageNumber == 1 %}
+              {% assign pageUrl = site.paginate_path | remove: '/page:num' %}
+            {% endif %} 
+            {% if pageNumber <= paginator.total_pages %}
+              {% if pageNumber == paginator.page %}
+              <a href="{{pageUrl}}" class="active item">
+              {% else %}
+              <a href="{{pageUrl}}" class="item">
+              {% endif %}
+            {% else %}
+            <a class="item disabled">
+            {% endif %}
+              {{ pageNumber}}
+            </a>
+          {% endfor %}
+
+          {% if paginator.next_page %}
+          <a class="item" href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', paginator.next_page }}">
+          {% else %}
+          <a class="item disabled">
+          {% endif %}
+            <i class="chevron circle right icon"></i>
+          </a>
+
+        </div>
+     </div>
+     <div class="five wide column">
+      {% include blog-sidebar.html %}
+     </div>
+  </div>
+</div>
