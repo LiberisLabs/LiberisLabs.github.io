@@ -6,6 +6,7 @@ title: Careers
 type: Technical
 job_icon: windows
 location: Nottingham, United Kingdom
+show_apply: true
 ---
 
 ## Skillz
