@@ -22,6 +22,25 @@ $(document).ready(function() {
 	    }, 900, 'swing');
 	});
 
+  $("#job-types").change(function(){
+    var selected = $( "#job-types option:selected" ).val();
+    var $jobs = $('div[data-job-type]');
+    
+    if(selected === ''){
+      $jobs.fadeIn();
+    }
+    else{
+      $jobs.each(function( index, element ) {
+        $element  = $(element);
+        if($element.data('job-type') === selected){
+          $element.fadeIn();
+        }else{
+          $element.fadeOut();
+        }
+     });
+    }
+  });
+
   	var quotes = $(".quotes");
   	var quoteIndex = -1;
 
@@ -34,5 +53,5 @@ $(document).ready(function() {
     }
 
     showNextQuote();
-
 });
+

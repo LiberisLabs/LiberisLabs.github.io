@@ -1,5 +1,7 @@
 # Site settings
 
+gems: [jekyll-paginate]
+
 paginate: 10 # pagination based on number of posts
 paginate_path: "/blog/page:num"
 
@@ -27,3 +29,8 @@ exclude: [semantic/node_modules/]
 
 pageNumbers: [1,2,3,4,5]
 array: []
+
+collections:
+  jobs:
+    output: true
+    permalink: /careers/jobs/:path/

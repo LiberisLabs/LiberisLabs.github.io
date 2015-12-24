@@ -1,0 +1,20 @@
+---
+layout: page
+icon: code
+title: Careers
+---
+<div class="ui hidden divider"></div>
+<div class="ui text container">
+  <div class="ui large breadcrumb">
+    <a class="section" href="{{ "/careers" | prepend: site.baseurl }}">Careers</a>
+    <i class="right chevron icon divider"></i>
+    <a class="section" href="{{ "/careers" | prepend: site.baseurl }}">Jobs</a>
+    <i class="right chevron icon divider"></i>
+    <div class="active section">{{page.job_title}}</div>
+  </div>
+
+  <h2 class="ui dividing header">{{page.job_title}}</h2>
+
+  {{ content }}
+
+</div>
