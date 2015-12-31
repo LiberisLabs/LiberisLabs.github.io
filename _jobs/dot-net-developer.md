@@ -6,7 +6,7 @@ title: .NET Developer
 type: Technical
 job_icon: windows
 location: Nottingham (city centre), United Kingdom
-show_apply: false
+show_apply: true
 ---
 
 ## The Company
