@@ -15,7 +15,7 @@ Ever since I got into the software business, a system's reporting capability has
 ## Why OData?
 
 Why not OData? We use MongoDB for all data stores (it's a blasphemy to even mention SQL in our place) and our first thought was to use some sort of ODBC driver with SQL support to expose our _schemaless_ data. But then again, losing control of our system intrinsic processes by relying on black box components that came with a monthly bill is enough incentive to stir our hacking/creative ingenuity.
-So, OData is free and open source [1] (Microsoft says...). In a sentence, it's a web protocol that allows publishing data over HTTP along with a description (**metadata**) of their structure and their relations to other entities.
+So, [OData][1] is free and open source (Microsoft says...). In a sentence, it's a web protocol that allows publishing data over HTTP along with a description (**metadata**) of their structure and their relations to other entities.
 
 Why bother with structure and references to other entities? **SHOW ME THE DATA!** Well, metadata information is used by clients like Excel to reconstitute data schema in their own mysterious ways and hydrate/map the data on the other side of the wire. Excel is a buzzword in our business so it didn't take long to put two and two together.
 
@@ -39,7 +39,7 @@ public class SomeEntityDataStore : IEntityDataStore
   }
 }
 ```
-Connection strings for `mongoDatabase` were configured with `secondaryPreferred` option which basically channels requests to secondary members in a Mongodb replica set if available. That way we take advantage of our replication strategy and scale out reads.
+Connection strings for `mongoDatabase` were configured with [secondaryPreferred][2] option which basically channels requests to secondary members in a Mongodb replica set if available. That way we take advantage of our replication strategy and scale out reads.
 
 Repositories like that were injected into `ODataControllers`:
 
@@ -92,9 +92,9 @@ public class Startup
   }
 }
 ```
-Every call to `EntitySet` defines a map between a route and its corresponding controllers. The EntitySet name is used as a resource path in the OData URI. Details of all endpoints URIs can be found in the service document. If `http://odatafeed` is the address for our WebAPI project, hitting the service root `http://odatafeed/readOnlyOdata` will reply back with the service document. A JSON object listing the URLs of the endpoints available e.g. `http://odatafeed/readOnlyOdata/SomeEntities` etc. Everything that follows after the service root up to querystring is the resource path used to navigate through the hierarchies defined in the EDM.
+Every call to `EntitySet` defines a map between a route and its corresponding controllers. The EntitySet name is used as a resource path in the OData URI. Details of all endpoints URIs can be found in the [service document][5]. If `http://odatafeed` is the address for our WebAPI project, hitting the service root `http://odatafeed/readOnlyOdata` will reply back with the service document. A JSON object listing the URLs of the endpoints available e.g. `http://odatafeed/readOnlyOdata/SomeEntities` etc. Everything that follows after the service root up to querystring is the resource path used to navigate through the hierarchies defined in the EDM.
 
-Apart from the service document which advertises the available entities to query via their endpoints urls, there is the metadata document which further describes EDM using Common Schema Definition Language (CSDL). CSDL is an XML like representation which OData protocol uses to describe the data types and their internal structure found in our POCO classes. Metadata document can be accessed with the `$metadata` keyword e.g. `http://odatafeed/readOnlyOdata/$metadata`. This document is used by ODataControllers to serialize data and transmit them over HTTP and the same document is used from clients to deserialize them on the other side.
+Apart from the service document which advertises the available entities to query via their endpoints urls, there is the [metadata document][3] which further describes EDM using [Common Schema Definition Language][4] (CSDL). CSDL is an XML like representation which OData protocol uses to describe the data types and their internal structure found in our POCO classes. Metadata document can be accessed with the `$metadata` keyword e.g. `http://odatafeed/readOnlyOdata/$metadata`. This document is used by ODataControllers to serialize data and transmit them over HTTP and the same document is used from clients to deserialize them on the other side.
 
 ## What's next
 
@@ -103,3 +103,7 @@ Well, we've just scratched the surface of the OData world using it as a simple r
 Next steps will improve EntitySet definition by using a `CustomHttpControllerSelector` to discover and define Entities by namespaces and naming conventions. Maybe adopting a mode radical approach building EDM models dynamically using the structure of the collections in Mongo databases. Hopefully, some good material for another blogpost...
 
 [1]: http://www.odata.org/
+[2]: https://docs.mongodb.org/manual/reference/read-preference/#secondaryPreferred
+[3]: http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Metadata_Document_Request
+[4]: http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html
+[5]: http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398266
