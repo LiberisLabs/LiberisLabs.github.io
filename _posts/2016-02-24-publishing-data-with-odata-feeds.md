@@ -5,7 +5,7 @@ categories:
 tags: [ReST, .NET, OData, MongoDB ]
 excerpt: How to publish readonly data sources with OData
 author: Sakis
-image:
+image: /assets/blog/2016-02-24-publishing-data-with-odata-feeds/odata.png
 canonical:
 ---
 ## When reporting is a pain...
