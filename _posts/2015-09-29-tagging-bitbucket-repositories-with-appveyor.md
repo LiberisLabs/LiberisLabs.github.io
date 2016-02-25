@@ -5,7 +5,7 @@ categories:
 tags: [CI, .NET, PowerShell, Bitbucket, GIT, AppVeyor]
 excerpt: How to tag your Bitbucket repository with AppVeyor
 author: Kev
-image: https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjugd-49ZLLAhXKhhoKHW2zDsEQjRwIBw&url=https%3A%2F%2Fwww.questionmark.com%2Fcontent%2Fwhats-new-questionmark-ondemand&bvm=bv.115277099,d.d2s&psig=AFQjCNFvTFzoVf9io94qlQ-e4xQGyahcTA&ust=1456489631704953
+image:
 canonical: http://kevsoft.net/2015/09/29/tagging-bitbucket-repositories-with-appveyor.html
 ---
 ## Forgetting to tag on release?
