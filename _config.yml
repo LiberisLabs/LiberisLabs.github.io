@@ -1,5 +1,7 @@
 # Site settings
 
+gems: [jekyll-paginate]
+
 paginate: 10 # pagination based on number of posts
 paginate_path: "/blog/page:num"
 
@@ -14,7 +16,7 @@ url: "http://liberislabs.com"
 disqus: 
 twitter_username: LiberisLabs
 github_username:  LiberisLabs
-google_tag_manager: 
+google_tag_manager: GTM-PH2H4R
 
 liberis_url: https://www.liberis.co.uk/?utm_source=liberis-labs&utm_medium=about-us
 blenheim_chalcot_url: http://www.blenheimchalcot.com/?utm_source=liberis-labs&utm_medium=about-us
@@ -27,3 +29,8 @@ exclude: [semantic/node_modules/]
 
 pageNumbers: [1,2,3,4,5]
 array: []
+
+collections:
+  jobs:
+    output: true
+    permalink: /careers/jobs/:path/
