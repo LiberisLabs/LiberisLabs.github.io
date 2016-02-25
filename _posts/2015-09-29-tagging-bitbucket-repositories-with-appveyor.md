@@ -5,7 +5,7 @@ categories:
 tags: [CI, .NET, PowerShell, Bitbucket, GIT, AppVeyor]
 excerpt: How to tag your Bitbucket repository with AppVeyor
 author: Kev
-image:
+image: 
 canonical: http://kevsoft.net/2015/09/29/tagging-bitbucket-repositories-with-appveyor.html
 ---
 ## Forgetting to tag on release?
@@ -88,7 +88,7 @@ The second option which I personally prefer is to setup the environment variable
   environment:
     GitEmail: Wat@kevsoft.net
     GitUsername: Wat
-    GitPassword:
+    GitPassword: 
       secure: 5rlMt+A20EhYaLPQFygpIA==
 
 ```
@@ -100,3 +100,4 @@ Once we've sorted all that we'll have our build server automatically tagging our
 ### Caveats?
 
 Even though we have a nice automated solution, there is a little caveat to this approach. In this approach we have to create a read/write access user within Bitbucket and due to Bitbucket is a per user licensing model this will use up one of our Bitbucket users! Doh! You could always just use your personal account but if you're working within a team I wouldn't advise it.
+
