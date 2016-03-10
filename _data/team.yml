@@ -38,11 +38,11 @@
   linkedin: venkat.yarabati
   twitter: venkat.yarabati
   facebook: venkat.yarabati
-  website: 
+  website:
 
 - name: Lee
   description:
-  image: /assets/meet-the-team/lee.jpg
+  image: /assets/meet-the-team/lee.png
   emailMd5: 9a8ee9e1fc7bcda249f3ca4ecf261438
   role: Software Craftsman
   github: Blundell89
@@ -52,7 +52,7 @@
   linkedin: leeblundell
   twitter: Blundell89
   facebook: blundell89
-  website:
+  website: http://blundell89.github.io
 
 - name: Karen
   description:
