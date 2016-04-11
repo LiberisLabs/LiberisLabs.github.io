@@ -95,3 +95,17 @@
   twitter: mattdotdev
   facebook: mattmwheatley
   website:
+
+- name: Adam
+  description:
+  image: /assets/meet-the-team/adam.jpg
+  emailMd5: b46322601e084a1a4219dcd65599aca5
+  role: Aspiring Software Overlord
+  github: adamwitko
+  stackoverflow: 254788
+  bitbucket: adamwitko
+  flickr: 
+  linkedin: adamwitko
+  twitter: firagabeatsrock
+  facebook: 
+  website: http://witkoknowsbest.com/
