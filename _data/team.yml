@@ -104,8 +104,22 @@
   github: adamwitko
   stackoverflow: 254788
   bitbucket: adamwitko
-  flickr: 
+  flickr:
   linkedin: adamwitko
   twitter: firagabeatsrock
-  facebook: 
+  facebook:
   website: http://witkoknowsbest.com/
+
+- name: Josh
+  description:
+  image: /assets/meet-the-team/josh.jpg
+  emailMd5: 145b2895934a537f1d945cdf844db3a6
+  role: hashtag(FinDev)
+  github: hawx
+  stackoverflow: 402287
+  bitbucket: hawx
+  flickr: hawx-
+  linkedin:
+  twitter: hawx
+  facebook:
+  website: http://hawx.me
