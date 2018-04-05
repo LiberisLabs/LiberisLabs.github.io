@@ -17,6 +17,10 @@
   {% include scripts.html %}
 
   {% include fav-and-app-icons.html %}
+  
+  {% if site.facebook_ad %}
+	  {% include FacebookAdTracking.html %}
+  {% endif %}
 
 
 </head>
